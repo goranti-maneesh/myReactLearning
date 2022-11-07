@@ -1,0 +1,16 @@
+.bg {
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  min-height: 120vh;
+  width: 100vw;
+  background-size: cover;
+  font-size: 75%;
+}
+img {
+  width: 100%;
+}
+h1 {
+  padding: 3%;
+}

@@ -1,0 +1,24 @@
+/* Write your code here. */
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  background-size: cover;
+}
+.c-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  padding: 20px;
+}
+.img-container {
+  width: 40%;
+}
+.button {
+  margin: 30px;
+  width: 180px;
+  padding: 20px;
+}

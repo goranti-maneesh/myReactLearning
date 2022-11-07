@@ -1,0 +1,33 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding-left: 10px;
+}
+.para {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 400;
+  color: #d7dfe9;
+  padding: 10px;
+}
+.button {
+  height: 50px;
+  width: 90px;
+  margin: 10px;
+  color: #ffffff;
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+.image {
+  width: 90%;
+  height: 80%;
+  margin: 20px;
+}

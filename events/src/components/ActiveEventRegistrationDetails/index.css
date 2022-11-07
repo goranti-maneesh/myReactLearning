@@ -1,0 +1,28 @@
+.registered-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.registered-image {
+  height: 10vh;
+}
+.button {
+  background-color: blue;
+  width: 5vh;
+  border-radius: 10px;
+}
+.closed-image {
+  height: 20vh;
+}
+.live-image {
+  height: 20vh;
+}
+.registration-status-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 40%;
+  height: 100vh;
+}

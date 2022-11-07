@@ -1,0 +1,12 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.head {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #64748b;
+  height: 100px;
+  order: 0;
+}

@@ -1,0 +1,25 @@
+.search-icon {
+  height: 15px;
+  width: 15px;
+}
+
+.dark-search-icon {
+  color: #909090;
+}
+
+.nav-icon {
+  align-self: center;
+  margin-right: 12px;
+}
+.close-icon {
+  height: 35px;
+  width: 35px;
+  margin: 10px;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}

@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.thumbnailUrl {
+  width: 100%;
+}
+.listItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.closeButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-start;
+}
+.trigger-button {
+  background-color: transparent;
+  border-radius: 5%;
+  text-align: center;
+}
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2%;
+  width: 100%;
+}
+.video {
+  width: 100%;
+}
+.card {
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 25%;
+}
+@media screen and (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.popup-content {
+  width: 580px;
+  height: 400px;
+}
+
+.popup-overlay {
+  background: rgba(24, 23, 23, 0.5);
+}

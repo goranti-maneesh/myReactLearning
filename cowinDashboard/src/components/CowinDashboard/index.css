@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.bg {
+  background-color: #161625;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.logo-card {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 35px;
+  width: 35px;
+  margin-right: 10px;
+}
+.logo-title {
+  color: #2cc6c6;
+  font-size: 24px;
+}
+
+.heading {
+  color: #cbd5e1;
+  font-size: 28px;
+}
+
+.failure-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.chart-title {
+  color: #94a3b8;
+  font-size: 13px;
+}

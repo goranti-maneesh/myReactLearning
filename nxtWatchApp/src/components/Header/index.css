@@ -1,0 +1,52 @@
+.moon-icon {
+  height: 34px;
+  width: 34px;
+  margin-right: 10px;
+  color: #000000;
+}
+
+.sun-icon {
+  height: 34px;
+  width: 34px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .moon-icon {
+    height: 25px;
+    width: 25px;
+  }
+  .sun-icon {
+    height: 25px;
+    width: 25px;
+  }
+}
+.hamburger-icon {
+  height: 34px;
+  width: 34px;
+  margin-right: 10px;
+}
+
+.dark-hamburger-icon {
+  color: #ffffff;
+  height: 34px;
+  width: 34px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .hamburger-icon {
+    display: none;
+  }
+  .dark-hamburger-icon {
+    display: none;
+  }
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}

@@ -1,0 +1,19 @@
+.blog-info {
+  padding-left: 15px;
+}
+
+.author-details {
+  display: flex;
+}
+.author-pic {
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.blog-image {
+  height: 550px;
+  width: 1050px;
+  margin: 10px;
+  border-radius: 5px;
+}

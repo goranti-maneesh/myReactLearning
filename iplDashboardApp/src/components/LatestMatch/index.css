@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.LatestMatchContainer {
+  background-color: #1e293b;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+.leftBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.rightBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.inningsHeading {
+  font-size: 18px;
+  font-family: 'Bree serif';
+  font-weight: 500;
+  color: #ffffff;
+}
+.values-latest {
+  font-size: 13px;
+  font-family: 'Bree serif';
+  font-weight: 300;
+  color: #ffffff;
+}
+.teamHeading {
+  font-size: 22px;
+  font-family: 'Bree serif';
+  font-weight: 500;
+  color: #ffffff;
+}
+.date {
+  font-size: 20px;
+  font-family: 'Bree serif';
+  font-weight: 500;
+  color: #ffffff;
+}
+.resStatusText {
+  font-size: 13px;
+  font-family: 'Bree serif';
+  font-weight: 300;
+  color: #ffffff;
+}
+.latest-image {
+  width: 260px;
+  height: 200px;
+  margin-right: 46px;
+}

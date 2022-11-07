@@ -1,0 +1,19 @@
+/* Write your code here. */
+
+@media all (max-width: 576px), (min-width: 576px) {
+  .container {
+    background-color: #0f8fafc;
+    background-size: cover;
+    height: 100vh;
+  }
+  .image {
+    height: 60px;
+    width: 60px;
+  }
+  .image-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}

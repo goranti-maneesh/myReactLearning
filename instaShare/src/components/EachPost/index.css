@@ -1,0 +1,136 @@
+.post-container {
+  width: 1040px;
+  height: 866px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px 4px 0px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-image-container {
+  box-sizing: border-box;
+  width: 1040px;
+  height: 60px;
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px 4px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 25px;
+  background-image: linear-gradient(#e20337 100% #c60188 100% #7700c3 100%);
+}
+
+.profile-image {
+  width: 32px;
+  height: 32px;
+  border: 1px solid green;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.user-name1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #262626;
+}
+
+.post-image1 {
+  width: 1040px;
+  height: 614px;
+}
+
+.post-details-container {
+  padding: 10px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+.heart-icon {
+  color: red;
+  margin: 5px;
+  width: 25px;
+  height: 22px;
+  margin-left: 0px;
+}
+
+.comment-icon {
+  margin: 5px;
+  width: 25px;
+  height: 22px;
+}
+
+.share {
+  margin: 5px;
+  width: 25px;
+  height: 22px;
+}
+
+.likes {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0px;
+  color: #262626;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-family: 'Roboto';
+  font-style: normal;
+
+  font-size: 14px;
+}
+
+.caption {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #262626;
+  margin: 2px;
+}
+
+.time {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0px;
+
+  color: #989898;
+}
+
+.comments-list {
+  list-style: none;
+  padding: 0px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.user-id {
+  text-decoration: none;
+}
+
+.like-button {
+  background-color: none;
+  border: none;
+  background-color: transparent;
+}
+
+.comment-user {
+  font-weight: bold;
+  margin-right: 6px;
+}

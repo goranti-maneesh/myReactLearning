@@ -1,0 +1,28 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.notification-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.main-heading {
+  font-family: "Roboto";
+  font-size: 30px;
+  color: #0f172a;
+  text-align: center;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

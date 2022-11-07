@@ -1,0 +1,130 @@
+.profile-details {
+  width: 1040px;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic-details {
+  display: flex;
+}
+.profile-image1 {
+  width: 130px;
+  height: 130px;
+  border-radius: 70px;
+  margin: 25px;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: 30px;
+}
+.post-followers-following-count {
+  display: flex;
+}
+
+.user-image-container {
+  height: 180px;
+  width: 180px;
+}
+
+.count {
+  margin: 15px;
+  margin-left: 0px;
+}
+
+.padding {
+  padding: 0px;
+  margin: 5px;
+  font-family: 'Roboto';
+  font-style: normal;
+}
+
+.user-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+}
+
+.user-id {
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #262626;
+}
+
+.loader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+
+  list-style: none;
+  padding-left: 0px;
+}
+
+.each-image {
+  padding-left: 0px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.story-image {
+  margin: 20px;
+  height: 78px;
+  width: 78px;
+  border-radius: 60px;
+}
+
+.h-line {
+  width: 1040px;
+}
+
+.grid-post {
+  display: flex;
+  align-items: center;
+}
+
+.post-image {
+  width: 330px;
+  height: 330px;
+  margin: 10px;
+}
+
+.posts-heading {
+  font-size: 15px;
+}
+
+.pff {
+  font-weight: bold;
+  font-family: 'roboto';
+}
+
+.user-bio {
+  line-height: 24px;
+  color: #262626;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}

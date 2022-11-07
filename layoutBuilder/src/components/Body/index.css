@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.bodyCont {
+  display: flex;
+  flex-direction: row;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  order: 0;
+  background-color: #cbd5e1;
+  height: 100%;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  order: 1;
+  width: 200px;
+  height: 100%;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  order: 2;
+  background-color: #cbd5e1;
+  height: 100%;
+}

@@ -1,0 +1,20 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.homeDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  min-height: 90vh;
+}
+.homeImg {
+  height: 200px;
+  width: 200px;
+}
+.homeDiv1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  min-height: 90vh;
+}

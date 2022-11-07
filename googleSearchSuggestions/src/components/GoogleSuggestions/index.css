@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.app-container {
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto';
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  height: 100px;
+  width: 300px;
+  margin-bottom: 40px;
+}
+.search-container {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.suggestions-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 10px;
+  border-radius: 15px;
+}
+.search {
+  width: 20px;
+  height: 20px;
+}
+.search-box {
+  border: none;
+  margin-left: 20px;
+  height: 30px;
+  width: 450px;
+  outline: none;
+  color: #64748b;
+  font-size: 16px;
+}

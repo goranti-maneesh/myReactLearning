@@ -1,0 +1,84 @@
+.job-card-container {
+  list-style-type: none;
+  background-color: #272727;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.logo-designation-container {
+  display: flex;
+  align-items: center;
+}
+.job-link {
+  color: transparent;
+}
+.company-logo {
+  width: 15%;
+  margin-right: 15px;
+}
+@media screen and (max-width: 767px) {
+  .company-logo {
+    width: 25%;
+  }
+}
+.rating-design-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 10px;
+}
+.designation {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #cbd5e1;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.star {
+  color: yellow;
+  margin-right: 5px;
+}
+.rating {
+  color: #cbd5e1;
+  font-size: 20px;
+}
+.location-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.all-location-container {
+  display: flex;
+  align-items: center;
+}
+.location {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #cbd5e1;
+  padding-left: 5px;
+  padding-right: 15px;
+}
+.job-description {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #cbd5e1;
+}
+.icon {
+  color: #cbd5e1;
+  font-size: 18px;
+}
+.package {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #cbd5e1;
+}
+.description-heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #cbd5e1;
+}

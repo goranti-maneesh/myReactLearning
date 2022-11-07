@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.button1 {
+  margin-right: 150px;
+}
+.name-button {
+  display: flex;
+  flex-direction: column;
+}

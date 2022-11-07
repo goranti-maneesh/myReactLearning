@@ -1,0 +1,13 @@
+/* Write your CSS here */
+
+.cashButton {
+  background-color: #382f5a;
+  width: 120px;
+  border: 1px solid white;
+  cursor: pointer;
+  color: white;
+}
+
+/* .listItem {
+  margin: 24px;
+} */

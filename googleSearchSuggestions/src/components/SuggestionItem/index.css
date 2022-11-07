@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.suggestion-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  color: #475569;
+}
+.arrow {
+  width: 22px;
+  height: 23px;
+  cursor: pointer;
+}

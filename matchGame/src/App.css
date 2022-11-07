@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.css-App-non-header-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* HEADER - START*/
+.css-header-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  background-color: #2c0e3a;
+  list-style-type: none;
+  margin: 0;
+}
+
+.css-header-logo-image {
+  width: 200px;
+}
+
+.css-header-score-timer-div {
+  display: flex;
+  align-items: center;
+}
+
+.css-header-score-heading {
+  color: white;
+}
+.css-header-span {
+  color: orange;
+}
+
+.css-header-timer-div {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  color: white;
+}
+
+.css-header-timer-icon {
+  width: 50px;
+  height: 50px;
+}
+
+/* HEADER - END*/
+
+/* RANDOM IMAGE -START */
+.css-randomImage-div {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.css-randomImage-image {
+  width: 600px;
+  border-radius: 10px;
+}
+/* RANDOM IMAGE -END */
+
+/* TABLIST - START */
+.css-tabList-ul {
+  display: flex;
+  justify-content: center;
+}
+
+.css-tabList-list {
+  list-style-type: none;
+  margin: 10px;
+}
+.css-TabList-Button {
+  border-width: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.css-TabList-active {
+  color: orange;
+  border-bottom-color: orange;
+  border-style: solid;
+  border-bottom-width: 2px;
+}
+
+/* TABLIST - END */
+
+/* TABLISTIMAGEBIEW - START */
+
+.css-TabListImageView-ul {
+  list-style-type: none;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 700px;
+}
+
+.css-TabListImageView-thumbnail-div {
+  margin: 10px;
+}
+
+.css-thumbnail-image {
+  width: 100px;
+}
+/* TABLISTIMAGEBIEW - END */
+
+/* GAMEOVER - START */
+.css-GameOver-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.css-GameOver-yourscore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.css-GameOver-button-div {
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  color: white;
+  border-width: 0;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.css-GameOver-image {
+  width: 500px;
+}
+
+/* GAMEOVER - END */

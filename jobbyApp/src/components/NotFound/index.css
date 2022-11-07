@@ -1,0 +1,36 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  min-height: 100vh;
+  background-color: #202020;
+}
+.failure-img {
+  width: 60%;
+}
+.failure-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+.failure-content {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+}
+.btn {
+  width: 100px;
+  margin-bottom: 20px;
+}
+.not-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

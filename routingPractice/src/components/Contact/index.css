@@ -1,0 +1,16 @@
+/* Write your CSS code here */
+.conatiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-image {
+  width: 80%;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: bold;
+  color: #551e53;
+}

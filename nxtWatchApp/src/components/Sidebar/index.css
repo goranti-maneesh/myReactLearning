@@ -1,0 +1,13 @@
+.nav-icon {
+  align-self: center;
+  margin-left: 22px;
+}
+.dark-nav-icon {
+  align-self: center;
+  margin-right: 16px;
+  margin-left: 22px;
+}
+
+.link-element {
+  text-decoration: none;
+}

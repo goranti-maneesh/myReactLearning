@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.app-container {
+  background-color: linear-gradient(#f9d423, #a35200);
+  height: 100vh;
+}
+
+.card {
+  color: 50vh;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+
+.main-heading {
+  color: #e2a139;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.main-paragraph {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.toss-result {
+  height: 20vh;
+  width: 20vh;
+}
+
+.toss-button {
+  color: #f9d423;
+  background-color: #a35200;
+}
+
+.paragraph {
+  color: #475569;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  font-weight: bold;
+}

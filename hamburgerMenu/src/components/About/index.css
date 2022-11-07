@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.about-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.sm-img-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lg-img-container {
+  display: none;
+}
+
+.about-img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .sm-img-container {
+    display: none;
+  }
+  .lg-img-container {
+    display: flex;
+  }
+}
